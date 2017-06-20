@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  color: white;
+  position: relative;
+  font-family: 'Catamaran', sans-serif; }
+
+#landing {
+  color: black;
+  width: 100%; }
+
+.stars {
+  z-index: -1;
+  position: relative;
+  background-image: url(http://www.14denoviembre.es/img/hori.png), url(http://www.14denoviembre.es/img/stars_5.png);
+  background-repeat: repeat-x,repeat-x repeat-y;
+  transform: translate3D(0em, 0em, 0);
+  animation: stars 21s ease;
+  transform-style: preserve-3d; }
+
+#ShootingStarParam img {
+  width: 310px;
+  height: 511px;
+  position: relative;
+  z-index: -1;
+  margin-top: 150px; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.navbar-default {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: transparent;
+  background-image: none;
+  display: inline-block;
+  padding-top: 40px;
+  box-shadow: none; }
+
+.navbar-default a {
+  opacity: 1; }
+
+.navbar-default > .active {
+  background-color: black; }
+
+.navbar-toggle {
+  float: none;
+  margin: 10px auto; }
+
+.navbar-header {
+  float: none;
+  display: inline-block; }
+
+.navbar-default .navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 58px; }
+
+.navbar-default .navbar-nav li a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  letter-spacing: 1px; }
+  .navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:focus {
+    color: #1ABBE6;
+    cursor: auto;
+    border-bottom: 3px solid #1ABBE6; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: white;
+  background-color: transparent;
+  background-image: none;
+  border-bottom: 3px solid #1ABBE6; }
+
+#security {
+  background-color: black;
+  color: white;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 100px; }
+  #security h1 {
+    padding: 70px 0 30px 0;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 58px; }
+  #security h2 {
+    padding: 80px 0;
+    font-weight: 100;
+    width: 70%;
+    margin: 0 auto;
+    font-family: "Ubuntu", sans-serif; }
+  #security h3 {
+    letter-spacing: 1px;
+    font-family: "Ubuntu", sans-serif; }
+  #security #securityIcons img {
+    display: inline-block; }
+  #security .box {
+    display: inline-block;
+    margin: 30px; }
+
+/*# sourceMappingURL=style.css.map */
